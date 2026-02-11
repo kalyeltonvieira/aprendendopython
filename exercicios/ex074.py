@@ -1,5 +1,5 @@
 # i need to make a sort numbers, but how to do it?
-# first i need to think if is some ramdons value
+# first i need to think if is some randoms value
 from random import randint
 
 numeros = []
