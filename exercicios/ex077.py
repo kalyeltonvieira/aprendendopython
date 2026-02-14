@@ -8,7 +8,7 @@ for palavra in lista:
     tem_vogal = False
 
     for letra in palavra:
-        if letra in vogais:
+        if letra.upper() in vogais:
             print(letra, end=' ')
             tem_vogal = True
 
