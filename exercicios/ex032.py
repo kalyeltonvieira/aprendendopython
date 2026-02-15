@@ -11,7 +11,7 @@ else:
 
 import calendar
 ano = int(input("DIGITE O ANO PARA ANALISAR: "))
-if calendar.isleap(ano):
+if calendar.isleap(ano): # Aqui verifica se o ano e bissexto
     print('ANO BISSEXTO')
 else:
     print('ANO NAO BISSEXTO')
